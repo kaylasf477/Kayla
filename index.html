@@ -3,22 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!--
-  ============================================================
-  CARA MENGEDIT HALAMAN INI
-
-  Cari tulisan GANTI di bawah. Hanya bagian itu yang perlu
-  diubah. Tulisan yang diapit tanda kurung siku dengan tanda
-  seru adalah catatan, tidak ikut tampil di halaman.
-
-  Jangan ubah bagian <style> kecuali sudah paham CSS.
-  Kalau halaman jadi berantakan, buka tab History di repo
-  lalu kembalikan ke versi sebelumnya.
-  ============================================================
--->
-
-<!-- GANTI: nama kamu -->
 <title>Kayla</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +12,6 @@
 <style>
   :root {
     --deep:   #7a2e4a;
-    --deep-2: #9b3d5e;
     --paper:  #fdf2f6;
     --card:   #ffffff;
     --rule:   #f0cdd9;
@@ -53,8 +36,6 @@
   }
 
   .wrap { max-width: 860px; margin: 0 auto; padding: 0 20px 72px; }
-
-  /* ---------------- kepala halaman ---------------- */
 
   .hero {
     position: relative;
@@ -105,8 +86,6 @@
     margin: 26px 0 0;
   }
 
-  /* ---------------- kartu data ---------------- */
-
   .card {
     background: var(--card);
     border: 1px solid var(--rule);
@@ -137,8 +116,6 @@
     overflow-wrap: anywhere;
   }
 
-  /* ---------------- bagian isi ---------------- */
-
   section { margin-top: 46px; }
 
   h2 {
@@ -153,8 +130,6 @@
 
   p { margin: 0 0 14px; }
   .lead { font-size: 17.5px; max-width: 62ch; }
-
-  /* ---------------- pengalaman ---------------- */
 
   .item {
     background: var(--card);
@@ -183,8 +158,6 @@
 
   .item p { margin: 0; color: #6b3a4c; }
 
-  /* ---------------- kemampuan ---------------- */
-
   .tags { display: flex; flex-wrap: wrap; gap: 9px; padding: 0; margin: 0; list-style: none; }
 
   .tags li {
@@ -195,8 +168,6 @@
     font-size: 14.5px;
     font-weight: 500;
   }
-
-  /* ---------------- kontak ---------------- */
 
   .contact { background: var(--deep); border: 0; border-radius: 4px; padding: 6px 22px; margin-top: 0; box-shadow: none; }
   .contact .row { border-bottom-color: rgba(244,184,203,.25); }
@@ -240,20 +211,14 @@
 
 <header class="hero">
   <div class="hero-inner">
-    <!-- GANTI: nama lengkap kamu -->
     <h1>Kayla</h1>
-
-    <!-- GANTI: program studi dan kampus -->
     <p class="role">Mahasiswa Komputerisasi Akuntansi, Universitas Komputer Indonesia</p>
-
     <div class="hero-line"></div>
   </div>
 </header>
 
 <div class="wrap">
 
-  <!-- GANTI: isi setelah <dd> dengan data kamu.
-       Mau menambah baris? Salin satu blok <div class="row"> lalu ubah isinya. -->
   <dl class="card">
     <div class="row">
       <dt>NIM</dt>
@@ -275,8 +240,6 @@
 
   <section>
     <h2>Tentang saya</h2>
-    <!-- GANTI: dua sampai tiga kalimat. Tulis apa yang kamu bisa dan
-         sedang pelajari, bukan sifat seperti rajin atau pekerja keras. -->
     <p class="lead">
       Mahasiswa semester lima yang tertarik pada pencatatan keuangan berbasis sistem.
       Terbiasa mengolah data transaksi dengan Excel dan menyusun laporan keuangan sederhana,
@@ -286,7 +249,6 @@
 
   <section>
     <h2>Kemampuan</h2>
-    <!-- GANTI: tambah atau hapus <li> sesuai kemampuan kamu -->
     <ul class="tags">
       <li>Microsoft Excel</li>
       <li>Lookup dan pivot table</li>
@@ -301,8 +263,6 @@
   <section>
     <h2>Pengalaman</h2>
 
-    <!-- GANTI: satu blok untuk satu pengalaman.
-         Salin seluruh blok <div class="item"> kalau mau menambah. -->
     <div class="item">
       <h3>Bendahara Himpunan Mahasiswa Komputerisasi Akuntansi</h3>
       <p class="meta">2025 sampai sekarang</p>
@@ -319,7 +279,6 @@
   <section>
     <h2>Pendidikan</h2>
 
-    <!-- GANTI: riwayat pendidikan kamu -->
     <div class="item">
       <h3>Universitas Komputer Indonesia</h3>
       <p class="meta">Komputerisasi Akuntansi, 2022 sampai sekarang</p>
@@ -329,7 +288,6 @@
 
   <section>
     <h2>Kontak</h2>
-    <!-- GANTI: username dan alamat kamu. Bagian setelah href= juga ikut diganti. -->
     <dl class="card contact">
       <div class="row">
         <dt>GitHub</dt>
